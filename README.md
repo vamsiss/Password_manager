@@ -1,20 +1,28 @@
-# Password Management System
-## Key Points
-- Web-based application built in C++ using the Wt Web Toolkit for dynamic UI and SQLite to store credentials
-- Supports storing, retrieving, and managing credentials with Admin, Regular, and View-Only roles
-- Tracks credential changes and user logins for security, with formal SRS and design documentation
-- Followed Agile practices with weekly sprints to ensure iterative development, maintain flexibility, and achieve project milestones on time
-## Project Overview
-This project was developed over the course of a semester by a team of 10. The C++-based password management system uses the Wt Web Toolkit for dynamic UI and SQLite for secure credential storage. The project involved close collaboration between team members to complete both the back-end and front-end development. It features role-based access control, credential change tracking, and user login logging. The project followed Agile practices with weekly sprints, culminating in a successful deployment on the University’s CS OpenBSD server.
-## Project Structure
-### Folders
-* src    - Source code for the system
-* tests  - Unit tests for verifying functionality
-* sdl    - Software development library
-* libs   - External dependencies and libraries
-### Files
-* .gitattributes - Defines Git configuration for handling file types
-* .gitignore     - Specifies files and directories to exclude from Git commits
-* .gitmodules    - Tracks the Wt Web Toolkit submodule
-## Demonstration Video
-[![Password Manager Project Demonstration Video](https://img.youtube.com/vi/eaOlX4qEVZ8/0.jpg)](https://www.youtube.com/watch?v=eaOlX4qEVZ8)
+# 🔐 Password Management System
+
+A secure, role-based password management web application built using **C++**, the **Wt Web Toolkit**, and **SQLite**.
+
+## 🚀 Features
+- **Role-based Access Control**: Admin, Regular, and View-Only roles
+- **Secure Credential Storage**: Stored and encrypted using SQLite
+- **Activity Logging**: Tracks login history and credential changes
+- **Dynamic UI**: Built with Wt for responsive and interactive components
+- **Agile Workflow**: Developed in weekly sprints with full SRS & design documentation
+
+## 🛠 Tech Stack
+- **Frontend/Backend**: C++ with [Wt Web Toolkit](https://www.webtoolkit.eu/wt)
+- **Database**: SQLite
+- **Hosting**: Deployed on OpenBSD server (University)
+
+## 📁 Project Structure
+
+- **src** – Main source code  
+- **tests** – Unit tests  
+- **sdl** – Custom development libraries  
+- **libs** – External dependencies  
+
+## 📽 Demo
+[![Watch the Demo](https://img.youtube.com/vi/eaOlX4qEVZ8/0.jpg)](https://www.youtube.com/watch?v=eaOlX4qEVZ8)
+
+## 👥 Team & Contribution
+Collaborated with a team of 10 using Agile practices. Contributions include core backend logic, role management, and integration testing.
